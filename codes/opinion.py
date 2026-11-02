@@ -19,13 +19,7 @@ USER_AGENT = "news-opinion-research/1.0"
 
 # ---------------- Topics ----------------
 TOPICS = [
-    "Ukraine war",
-    "Avdiivka",
-    "Kharkiv offensive",
-    "Ukraine aid package",
-    "Ukraine peace summit",
-    "Kursk incursion",
-    "Ukraine energy infrastructure strikes",
+    "Russia-Ukraine war",
 ]
 
 ARTICLE_URLS = [
