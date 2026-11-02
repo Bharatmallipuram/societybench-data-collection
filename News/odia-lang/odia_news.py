@@ -345,7 +345,7 @@ def source_name(url: str) -> str:
 
 
 def collect(topic: str, settings: dict) -> tuple[int, int]:
-    path = ROOT / "odia" / f"{topic}.csv"
+    path = ROOT / f"{topic}.csv"
     with path.open("r", encoding="utf-8-sig", newline="") as handle:
         existing = list(csv.DictReader(handle))
     existing_news = sum(row.get("source_type") == "news_article" for row in existing)
